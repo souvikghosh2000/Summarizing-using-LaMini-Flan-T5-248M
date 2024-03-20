@@ -8,7 +8,7 @@ This project utilizes the LaMini Flan T5 model, fine-tuned on Google/flan-t5-bas
    The first challenge was to select a model suitable for local usage with a moderate parameter count. LaMini Flan T5 model was chosen for its fine-tuning on Google/flan-t5-base, striking a balance between performance and resource requirements.
 
 2. **Word Embeddings from FAAIS**:
-   To enhance the model's understanding of the text, FAAIS (or any other suitable vector database) was utilized to select word embeddings, enriching the vocabulary and semantic representation.
+   To enhance the model's understanding of the text, FAAIS  was utilized to select word embeddings, enriching the vocabulary and semantic representation.
 
 3. **Creating a Model Pipeline with Langhain**:
    Langhain was instrumental in constructing a robust pipeline for the model. Leveraging its capabilities, we seamlessly integrated preprocessing, model execution, and post-processing steps to ensure efficient summarization.
